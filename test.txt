@@ -1,1 +1,4 @@
-学习从remote端往client端同步
+S学习从remote端往client端同步
+
+Git status
+Git diff
