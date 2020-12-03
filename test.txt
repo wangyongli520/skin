@@ -8,3 +8,7 @@ test:again test push
 Again test 
 
 Again HEAD:refs/origin/master
+
+
+Test .gitmessage 
+Test [commit] te=~/.gitmessage
