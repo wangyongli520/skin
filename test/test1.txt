@@ -1,6 +1,27 @@
 练习新目录下文件的提交
 
 
+
+************************local
 .gitignore ：在.git目录下有一个.gitignore文件，用来标示git提交的时候都忽略哪些文件
 .gitmeesage：在.git目录下有一个.gitmessage文件，用来commit提交时提供描述
 Config文件：用来配置git的相关信息，包括git commit时自动调用.gitmessage文件
+
+
+
+**************************remote
+git的使用学习阶段。。。
+1.git add 
+2.git commit 
+  2.1 git commit --amend 将本次提交和上一次提交合并一次
+3.git diff --cached
+4.git pull --rebase
+5.git push <remote/branch>
+6.git log
+7.git remote  添加远程仓库
+8.git fetch <remote> 从远程仓库拉取
+9.git remote show <remotename> 查看远程仓库
+10.git remote rename filename1 filename2. 修改远程仓库的名字 把filename1修改为名字filename2
+12.git remote rm <remoteName> 移除远程仓库
+14.git reset HEAD 《filename》 将在暂存区的文件取消暂存 
+
