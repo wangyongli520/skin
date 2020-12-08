@@ -24,4 +24,6 @@ git的使用学习阶段。。。
 10.git remote rename filename1 filename2. 修改远程仓库的名字 把filename1修改为名字filename2
 12.git remote rm <remoteName> 移除远程仓库
 14.git reset HEAD 《filename》 将在暂存区的文件取消暂存 
+15.git fetch <remoteName> 将远程仓库的所有分支的文件都拉取到本地仓库
+16.git pull 《remote/branch》拉取当前远程仓库或者之前跟踪的一个分支
 
