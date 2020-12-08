@@ -21,3 +21,11 @@ again meger
         modified：readme.md 说明正常，可以正常提交
 将文件打开，从新编辑，直到将冲突解决
 执行：git rebase --continue
+
+
+以后每次如果想从远程仓库更新最近代码
+1.执行git pull --rebase 《remote/branch》
+2.如果有冲突 修改冲突
+3.git add 《file》从新提交文件
+4.git commit 《git commitMessage》
+5.git push 《remote/branch》
