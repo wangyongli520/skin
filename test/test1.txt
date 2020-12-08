@@ -1,1 +1,6 @@
 练习新目录下文件的提交
+
+
+.gitignore ：在.git目录下有一个.gitignore文件，用来标示git提交的时候都忽略哪些文件
+.gitmeesage：在.git目录下有一个.gitmessage文件，用来commit提交时提供描述
+Config文件：用来配置git的相关信息，包括git commit时自动调用.gitmessage文件
