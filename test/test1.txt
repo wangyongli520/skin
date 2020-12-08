@@ -26,4 +26,6 @@ git的使用学习阶段。。。
 14.git reset HEAD 《filename》 将在暂存区的文件取消暂存 
 15.git fetch <remoteName> 将远程仓库的所有分支的文件都拉取到本地仓库
 16.git pull 《remote/branch》拉取当前远程仓库或者之前跟踪的一个分支
-
+17.在config文件中给当前目录中使用git命令设置别名。 
+    /.git/config 加[alias] st=status
+    关闭，回到本地仓库的目录中，就可以使用了，$ git st. <==> $ git status
